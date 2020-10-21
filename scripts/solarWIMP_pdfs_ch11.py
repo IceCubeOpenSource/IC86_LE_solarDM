@@ -26,9 +26,9 @@ if not os.path.exists(out):
 
 
 dataset = '674' #baseline genie dataset number is 674
-numu_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/level5p/numu/14"+dataset+"/*.bz2")
-nue_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/level5p/nue/12"+dataset+"/*.bz2")
-nutau_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/level5p/nutau/16"+dataset+"/*.bz2")
+numu_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/numu/14"+dataset+"/*.bz2")
+nue_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/nue/12"+dataset+"/*.bz2")
+nutau_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/nutau/16"+dataset+"/*.bz2")
 numu_files = len(numu_list)
 nue_files = len(nue_list)
 nutau_files = len(nutau_list)

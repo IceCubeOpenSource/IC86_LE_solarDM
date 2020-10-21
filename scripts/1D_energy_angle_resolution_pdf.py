@@ -9,9 +9,9 @@ from event_cuts_l5_plus import *
 
 
 dataset = 674
-numu_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/level5p/numu/14"+dataset+"/*.i3.bz2")
-nue_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/level5p/nue/12"+dataset+"/*.i3.bz2")
-nutau_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/level5p/nutau/14"+dataset+"/*.i3.bz2")
+numu_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/numu/14"+dataset+"/*.i3.bz2")
+nue_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/nue/12"+dataset+"/*.i3.bz2")
+nutau_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/nutau/14"+dataset+"/*.i3.bz2")
 Infile_List = numu_list + nue_list + nutau_list
 
 reco_mc_energy_histogram_list = [[TH1D("mc_energy_reco_"+str(i+1)+"_"+str(j),";neutrino energy (GeV);counts",200,0,200) for i in xrange(0,99)] for j in xrange(0,12)]
