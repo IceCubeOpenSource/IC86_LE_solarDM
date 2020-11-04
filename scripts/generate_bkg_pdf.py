@@ -78,10 +78,7 @@ tray.AddModule(calculate_background_pdf, "calculate_background_pdf")
 
 tray.AddModule( 'TrashCan' , 'Done' )
 
-if (params.NEvents==-1):
-    tray.Execute()
-else:
-    tray.Execute(params.NEvents)
+tray.Execute()
 
 tray.Finish()
 
