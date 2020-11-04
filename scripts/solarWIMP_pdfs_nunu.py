@@ -5,7 +5,7 @@ out = 'signal_pdfs'
 if not os.path.exists(out):
    os.makedirs(out)
 
-dataset = 674
+dataset = '674'
 reco_mc_energy_histogram_list = []
 angle_mc_energy_histogram_list = []
 file1 = TFile("/data/user/mnisa/SolarDM/energy_angle_resolutions/1D_energy_angle_resolution_"+dataset+".root")

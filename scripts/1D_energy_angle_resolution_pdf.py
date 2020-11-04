@@ -8,7 +8,7 @@ from math import *
 from event_cuts_l5_plus import *
 
 
-dataset = 674
+dataset = '674'
 numu_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/numu/14"+dataset+"/*.i3.bz2")
 nue_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/nue/12"+dataset+"/*.i3.bz2")
 nutau_list = glob.glob("/data/ana/BSM/IC86_LE_solarDM/MC/nutau/14"+dataset+"/*.i3.bz2")
@@ -68,10 +68,8 @@ tray.AddModule(fill_histograms, "fill_histograms")
 
 tray.AddModule( 'TrashCan' , 'Done' )
 
-if (params.NEvents==-1):
-    tray.Execute()
-else:
-    tray.Execute(params.NEvents)
+tray.Execute()
+
 
 tray.Finish()
 
