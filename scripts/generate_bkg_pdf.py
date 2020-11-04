@@ -13,7 +13,7 @@ import os
 
 from event_cuts_l5_plus import *
 
-Infile_List1 = sorted(glob.glob("/data/ana/BSM/IC86_LE_solarDM/data/IC86_*/*i3.bz2"))
+Infile_List = sorted(glob.glob("/data/ana/BSM/IC86_LE_solarDM/data/IC86_*/*i3.bz2"))
 
 #Infile_List = [os.readlink(f) for f in Infile_List1] #Read symlinks
 
