@@ -1,11 +1,15 @@
 # IC86_LE_solarDM
 Code for the low-energy SolarDM analysis (2020) using the modified DRAGON sample.
 
-Requirements:Icetray Environment with ROOT
+Requirements:Icetray Environment with ROOT.
+
 Suggested setup:
 `/cvmfs/icecube.opensciencegrid.org/py2-v3.1.1/setup.sh`
 =======
+
 Requirements:Icetray Environment with ROOT.
+
+`/cvmfs/icecube.opensciencegrid.org/py2-v3.1.1/RHEL_7_x86_64/metaprojects/combo/stable/env-shell.sh`
 
 Paths to the genie mc and dragon data files are hard-coded in the scripts and should be edited accordingly.
 
