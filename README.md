@@ -43,6 +43,6 @@ Run with: ```./1D_signal_sensitivity signal_sensi_mass_0_ch_11.txt 0 11 674```
 
 Finally,
 
-* combined_sensitivity_plotter.py is used to calculate the cross-section upper limits. This script can be run directly to print the pre-unblinding sensitivity for all channels.
+* combined_sensitivity.py is used to calculate and save the cross-section upper limits. This script can be run directly to print the pre-unblinding sensitivity for all channels.
 
-* plot_limits.py is used to plot the pre-saved sensitivities/upperlimits
+* plot_limits.py is used to plot the pre-saved sensitivities/upperlimits obtained from the above script.
